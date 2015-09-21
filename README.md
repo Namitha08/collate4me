@@ -4,8 +4,11 @@
 ## Description
 
 Collate4me brings services from all cab companies in india under one roof!
+
 Now, we need not open every app to check for nearest cab for all cab companies. :)
+
 It is a weekend project made for the only purpose of learning. Things I used: AngularJS, ui-router, MongoDB, mongoose, & Nodejs.
+
 ## Responsive, bloat free, bootstrap powered single page applicaiton.
 
 Check out the live example @ collate4me.herokuapp.com (at the time of development, will update a permanent one soon)
