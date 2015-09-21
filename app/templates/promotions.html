@@ -1,0 +1,45 @@
+<div class="row" ng-controller="PromotionsCtrl" ng-init=getPromotions()>
+  <div class="col-lg-12">
+    <rd-widget>
+      <rd-widget-header icon="fa-tasks" title="Promotions">
+      </rd-widget-header>
+      <rd-widget-body classes="medium no-padding">
+        <div class="table-responsive">
+          <table class="table">
+            <thead>
+              <tr>
+                <td colspan='3' class="text-center"> UBER </td>
+              </tr>
+            </thead>
+            <tbody>
+              <tr ng-repeat="uberPromotions in promotionsList.uber">
+                <td class="text-left">{{ $index + 1 }}</td>
+                <td> {{ uberPromotions.display_text }} </td>
+              </tr>
+            </tbody>
+            <thead>
+              <tr>
+                <td colspan='3' class="text-center"> OLA </td>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td colspan='3'>Coming up Soon! </td>
+              </tr>
+            </tbody>
+            <thead>
+              <tr>
+                <td colspan='3' class="text-center"> TFS </td>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td colspan='3'>Coming up Soon! </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </rd-widget-body>
+    </rd-widget>
+  </div>
+</div>
